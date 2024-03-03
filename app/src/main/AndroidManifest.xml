@@ -13,6 +13,9 @@
         android:theme="@style/Theme.JoyRiotDesignAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".GalleryActivity"
+            android:exported="false" />
+        <activity
             android:name=".HobbiesActivity"
             android:exported="false" />
         <activity

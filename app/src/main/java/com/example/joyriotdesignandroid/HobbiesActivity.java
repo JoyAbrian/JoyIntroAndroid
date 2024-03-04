@@ -23,6 +23,5 @@ public class HobbiesActivity extends AppCompatActivity {
                 startActivity(new Intent(HobbiesActivity.this, GalleryActivity.class));
             }
         });
-
     }
 }

@@ -7,21 +7,6 @@
     tools:context=".EducationActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="SMA (2019-2022)"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="monospace"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.444" />
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_width="340dp"
         android:layout_height="83dp"
@@ -39,12 +24,11 @@
         android:id="@+id/imageView3"
         android:layout_width="280dp"
         android:layout_height="166dp"
+        android:layout_marginBottom="420dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/activity2_smp2" />
 
     <ImageView
@@ -53,10 +37,10 @@
         android:layout_height="91dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintHorizontal_bias="0.814"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.219"
+        app:layout_constraintVertical_bias="0.151"
         app:srcCompat="@drawable/activity2_smp1" />
 
     <TextView
@@ -73,30 +57,41 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="SMA (2019-2022)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="338dp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="268dp"
-        android:layout_height="160dp"
+        android:id="@+id/imageView7"
+        android:layout_width="299dp"
+        android:layout_height="171dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.558"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/activity2_sma2" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="80dp"
-        android:layout_height="96dp"
+        android:id="@+id/imageView8"
+        android:layout_width="95dp"
+        android:layout_height="93dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintHorizontal_bias="0.822"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.641"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.28"
         app:srcCompat="@drawable/activity2_sma1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

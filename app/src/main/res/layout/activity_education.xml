@@ -135,7 +135,7 @@
         app:srcCompat="@drawable/activity2_kulyeah1" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next >"

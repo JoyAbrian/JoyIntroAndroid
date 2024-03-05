@@ -71,6 +71,5 @@ public class ContactActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }

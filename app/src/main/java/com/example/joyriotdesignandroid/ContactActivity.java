@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class ContactActivity extends AppCompatActivity {
-    private Button buttonFacebook, buttonInstagram, buttonGithub, buttonBack;
+    private Button buttonFacebook, buttonInstagram, buttonGithub, buttonWhatsapp, buttonLocation, buttonBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

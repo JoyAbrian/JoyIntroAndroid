@@ -67,7 +67,7 @@ public class ContactActivity extends AppCompatActivity {
         buttonLocation.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("geo:37.7749,-122.4194"));
+                intent.setData(Uri.parse("geo:51.38965204190354, 30.092890486813687"));
                 startActivity(intent);
             }
         });

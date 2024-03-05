@@ -54,7 +54,11 @@ public class ContactActivity extends AppCompatActivity {
         buttonWhatsapp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/JoyAbrian"));
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.setPackage("com.whatsapp");
+                intent.setData(Uri.parse("https://wa.me/081356621029"));
+                intent.putExtra(Intent.EXTRA_TEXT, "Haloo... what is candice?");
                 startActivity(intent);
             }
         });

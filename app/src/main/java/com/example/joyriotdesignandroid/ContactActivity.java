@@ -49,5 +49,16 @@ public class ContactActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        buttonWhatsapp = (Button) findViewById(R.id.buttonWhatsapp);
+        buttonWhatsapp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/JoyAbrian"));
+                startActivity(intent);
+            }
+        });
+
+        
     }
 }

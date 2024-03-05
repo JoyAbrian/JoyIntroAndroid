@@ -57,7 +57,7 @@ public class ContactActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");
                 intent.setPackage("com.whatsapp");
-                intent.setData(Uri.parse("https://wa.me/081356621029"));
+                intent.setData(Uri.parse("https://wa.me/6281356621029"));
                 intent.putExtra(Intent.EXTRA_TEXT, "Halo sayang!");
                 startActivity(intent);
             }

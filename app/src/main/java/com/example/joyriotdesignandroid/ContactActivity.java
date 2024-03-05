@@ -59,6 +59,14 @@ public class ContactActivity extends AppCompatActivity {
             }
         });
 
-        
+        buttonLocation = (Button) findViewById(R.id.buttonLocation);
+        buttonLocation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/JoyAbrian"));
+                startActivity(intent);
+            }
+        });
+
     }
 }

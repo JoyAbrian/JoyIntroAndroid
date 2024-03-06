@@ -50,26 +50,26 @@ public class ContactActivity extends AppCompatActivity {
             }
         });
 
-        buttonWhatsapp = (Button) findViewById(R.id.buttonWhatsapp);
-        buttonWhatsapp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setType("text/plain");
-                intent.setPackage("com.whatsapp");
-                intent.setData(Uri.parse("https://wa.me/6281356621029"));
-                intent.putExtra(Intent.EXTRA_TEXT, "Halo sayang!");
-                startActivity(intent);
-            }
-        });
-
-        buttonLocation = (Button) findViewById(R.id.buttonLocation);
-        buttonLocation.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("geo:51.38965204190354, 30.092890486813687"));
-                startActivity(intent);
-            }
-        });
+//        buttonWhatsapp = (Button) findViewById(R.id.buttonWhatsapp);
+//        buttonWhatsapp.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Intent.ACTION_SEND);
+//                intent.setType("text/plain");
+//                intent.setPackage("com.whatsapp");
+//                intent.setData(Uri.parse("https://wa.me/6281356621029"));
+//                intent.putExtra(Intent.EXTRA_TEXT, "Halo sayang!");
+//                startActivity(intent);
+//            }
+//        });
+//
+//        buttonLocation = (Button) findViewById(R.id.buttonLocation);
+//        buttonLocation.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Intent.ACTION_VIEW);
+//                intent.setData(Uri.parse("geo:51.38965204190354, 30.092890486813687"));
+//                startActivity(intent);
+//            }
+//        });
     }
 }
